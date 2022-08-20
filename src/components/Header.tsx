@@ -1,11 +1,15 @@
 const Header = () => {
   return (
     <div className="flex justify-between items-center p-5 w-full fixed">
-      <img className="w-28 h-28" src="/img/GenshinImpactLogo.png" alt="Logo" />
-      <div className="flex items-center justify-between w-96 text-2xl font-semibold text-white">
-        <span>게임 소개</span>
-        <span>캐릭터</span>
-        <span>미디어</span>
+      <img
+        className="w-28 h-28 cursor-pointer"
+        src="/img/GenshinImpactLogo.png"
+        alt="Logo"
+      />
+      <div className="flex items-center justify-between w-96 text-xl font-semibold text-white">
+        <span className="drop-shadow-lg cursor-pointer">게임 소개</span>
+        <span className="drop-shadow-lg cursor-pointer">캐릭터</span>
+        <span className="drop-shadow-lg cursor-pointer">미디어</span>
       </div>
       <div className="flex w-36 justify-between relative right-44 ">
         <a
